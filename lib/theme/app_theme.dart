@@ -7,12 +7,10 @@ class AppTheme {
 
     colorScheme: ColorScheme.fromSeed(
       seedColor: const Color(0xFF7A5C43),
-      primary: Color(0xFF7A5C43), // Marrom escuro para alto contraste nas horas
-      secondary: Color(0xFF81B29A), // Verde sálvia
-      surface: Color(0xFFFAEDCD), // O seu bege atual
-      tertiary: Color(
-        0xFFD4A373,
-      ), // O seu caramelo antigo, agora para detalhes menores
+      primary: Color(0xFF7A5C43),
+      secondary: Color(0xFF81B29A),
+      surface: Color(0xFFFAEDCD),
+      tertiary: Color(0xFFD4A373),
     ),
 
     elevatedButtonTheme: ElevatedButtonThemeData(
